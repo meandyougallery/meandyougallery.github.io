@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iJr2WefZUp0NcrbrCetN5UBxnEyBRN9X3MmQlDE7h5gbc8fa6jlaV8Q2jtJrA6Z/k6tP31eHzu6Uq05HbqIazQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/gallery.css">
+    <title>Me & You Gallery</title>
+</head>
+<body>
+    <header>
+        <h1>Me and You Gallery <span class="heart">&#9829;</span></h1>
+    </header>
+    <div class="gallery-container">
+        <button onclick="showPrevImage()" class="prev"><i class="fas fa-chevron-left"></i> Previous</button>
+        <img id="gallery-image" src="image1.jpg" alt="Gallery Image">
+        <button onclick="showNextImage()" class="next">Next <i class="fas fa-chevron-right"></i></button>
+    </div>
+    <footer>
+        <p>I'm sorry it's not perfect and shitty I did my best. <span class="sad-face">&#128557;</span></p>
+    </footer>
+    <script src="js/gallery.js"></script>
+</body>
+</html>

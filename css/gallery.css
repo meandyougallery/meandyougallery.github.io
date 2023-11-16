@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #b34b4b; /* Light gray background color */
+}
+
+header {
+    background: #080606; /* Header background color */
+    color: #fff; /* Header text color */
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.heart {
+    color: red; /* Heart color */
+}
+
+.gallery-container {
+    position: relative;
+    max-width: 800px;
+    margin: 50px auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#gallery-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+    display: block;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+}
+
+button.next {
+    background-color: #3498db;
+    right: 0;
+}
+
+button.prev {
+    background-color: #3498db;
+    left: 0;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+footer {
+    background: #000000; /* Footer background color */
+    color: #fff; /* Footer text color */
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}
+
+.sad-face {
+    font-size: 20px;
+}
